@@ -1,0 +1,977 @@
+Archive member included because of file (symbol)
+
+components/bsp/soc/boot/bootloader//libbootloader.a(ota_c.o)
+                              /tmp/ccgqrz18.o (uart_fw_upgrade)
+components/bsp/soc/boot/bootloader//libbootloader.a(serial.o)
+                              /tmp/cccF8t5D.o (serial_init)
+components/bsp/soc/boot/bootloader//libbootloader.a(mstick.o)
+                              /tmp/ccIXav0I.o (mstick_set_period)
+components/bsp/soc/boot/bootloader//libbootloader.a(ota_flash.o)
+                              /tmp/ccgqrz18.o (flash_cmd)
+components/bsp/soc/boot/bootloader//libbootloader.a(hal_gpio.o)
+                              /tmp/ccIXav0I.o (hal_gpio_set_mode)
+components/bsp/soc/boot/bootloader//libbootloader.a(hal_pinmux.o)
+                              /tmp/cccF8t5D.o (hal_pinmux_set_raw)
+components/bsp/soc/boot/bootloader//libbootloader.a(xmodem.o)
+                              components/bsp/soc/boot/bootloader//libbootloader.a(ota_c.o) (xmodemReceive)
+components/bsp/soc/boot/bootloader//libbootloader.a(crc16.o)
+                              /tmp/cciFj6os.o (crc16_ccitt)
+components/bsp/soc/boot/bootloader//libbootloader.a(tiny_printf.o)
+                              /tmp/cccF8t5D.o (tiny_printf_display)
+components/bsp/soc/boot/bootloader//libbootloader.a(tiny_do_printf.o)
+                              components/bsp/soc/boot/bootloader//libbootloader.a(tiny_printf.o) (tiny_do_printf)
+components/bsp/soc/boot/bootloader//libbootloader.a(ota_ssv_spiffs.o)
+                              components/bsp/soc/boot/bootloader//libbootloader.a(ota_c.o) (OTA_SPIFFS_init)
+components/bsp/soc/boot/bootloader//libbootloader.a(efuse.o)
+                              components/bsp/soc/boot/bootloader//libbootloader.a(ota_c.o) (ota_efuse_read_chip_id)
+components/bsp/soc/boot/bootloader//libbootloader.a(ota.o)
+                              (_bootloader_start)
+components/bsp/soc/boot/bootloader//libbootloader.a(boot_rnd.o)
+                              components/bsp/soc/boot/bootloader//libbootloader.a(ota.o) (_boot_init_rnd)
+components/bsp/soc/boot/bootloader//libbootloader.a(ota_init_mem.o)
+                              components/bsp/soc/boot/bootloader//libbootloader.a(ota.o) (_ota_nds32_init_mem)
+components/bsp/soc/boot/bootloader//libbootloader.a(ota_clock.o)
+                              components/bsp/soc/boot/bootloader//libbootloader.a(ota.o) (_ota_soc_clk_init)
+components/bsp/soc/boot/bootloader//libbootloader.a(my_lib.o)
+                              components/bsp/soc/boot/bootloader//libbootloader.a(ota_ssv_spiffs.o) (my_memcmp)
+components/bsp/soc/boot/bootloader//libbootloader.a(fota_md5.o)
+                              components/bsp/soc/boot/bootloader//libbootloader.a(ota_ssv_spiffs.o) (MD5_Init)
+components/bsp/soc/boot/bootloader//libbootloader.a(ota_spiffs_hydrogen.o)
+                              components/bsp/soc/boot/bootloader//libbootloader.a(ota_ssv_spiffs.o) (otaSPIFFS_buffer_bytes_for_filedescs)
+components/bsp/soc/boot/bootloader//libbootloader.a(ota_spiffs_nucleus.o)
+                              components/bsp/soc/boot/bootloader//libbootloader.a(ota_spiffs_hydrogen.o) (otaspiffs_phys_rd)
+/opt/tools/BSPv420/toolchains/nds32le-elf-mculib-v3/bin/../lib/gcc/nds32le-elf/4.9.4/mcmodel-large/libgcc.a(_addsub_sf.o)
+                              components/bsp/soc/boot/bootloader//libbootloader.a(serial.o) (__subsf3)
+/opt/tools/BSPv420/toolchains/nds32le-elf-mculib-v3/bin/../lib/gcc/nds32le-elf/4.9.4/mcmodel-large/libgcc.a(_mul_sf.o)
+                              components/bsp/soc/boot/bootloader//libbootloader.a(serial.o) (__mulsf3)
+/opt/tools/BSPv420/toolchains/nds32le-elf-mculib-v3/bin/../lib/gcc/nds32le-elf/4.9.4/mcmodel-large/libgcc.a(_div_sf.o)
+                              components/bsp/soc/boot/bootloader//libbootloader.a(serial.o) (__divsf3)
+/opt/tools/BSPv420/toolchains/nds32le-elf-mculib-v3/bin/../lib/gcc/nds32le-elf/4.9.4/mcmodel-large/libgcc.a(_fixunssfsi.o)
+                              components/bsp/soc/boot/bootloader//libbootloader.a(serial.o) (__fixunssfsi)
+/opt/tools/BSPv420/toolchains/nds32le-elf-mculib-v3/bin/../lib/gcc/nds32le-elf/4.9.4/mcmodel-large/libgcc.a(_si_to_sf.o)
+                              components/bsp/soc/boot/bootloader//libbootloader.a(serial.o) (__floatsisf)
+/opt/tools/BSPv420/toolchains/nds32le-elf-mculib-v3/bin/../lib/gcc/nds32le-elf/4.9.4/mcmodel-large/libgcc.a(_floatunsisf.o)
+                              components/bsp/soc/boot/bootloader//libbootloader.a(serial.o) (__floatunsisf)
+/opt/tools/BSPv420/toolchains/nds32le-elf-mculib-v3/bin/../lib/gcc/nds32le-elf/4.9.4/../../../../nds32le-elf/lib/mcmodel-large/libc.a(lib_a-memcpy.o)
+                              components/bsp/soc/boot/bootloader//libbootloader.a(fota_md5.o) (memcpy)
+/opt/tools/BSPv420/toolchains/nds32le-elf-mculib-v3/bin/../lib/gcc/nds32le-elf/4.9.4/../../../../nds32le-elf/lib/mcmodel-large/libc.a(lib_a-memset.o)
+                              components/bsp/soc/boot/bootloader//libbootloader.a(fota_md5.o) (memset)
+
+Allocating common symbols
+Common symbol       size              file
+
+xbuff               0x406             /tmp/cciFj6os.o
+
+Discarded input sections
+
+ .data          0x00000000        0x0 /tmp/cccF8t5D.o
+ .bss           0x00000000        0x0 /tmp/cccF8t5D.o
+ .data          0x00000000        0x0 /tmp/ccgqrz18.o
+ .bss           0x00000000        0x0 /tmp/ccgqrz18.o
+ .text          0x00000000      0x224 /tmp/ccIXav0I.o
+ .data          0x00000000        0x0 /tmp/ccIXav0I.o
+ .bss           0x00000000        0x0 /tmp/ccIXav0I.o
+ .rodata.str1.4
+                0x00000000       0x64 /tmp/ccIXav0I.o
+ .debug_info    0x00000000      0x759 /tmp/ccIXav0I.o
+ .debug_abbrev  0x00000000      0x179 /tmp/ccIXav0I.o
+ .debug_loc     0x00000000      0x159 /tmp/ccIXav0I.o
+ .debug_aranges
+                0x00000000       0x20 /tmp/ccIXav0I.o
+ .debug_ranges  0x00000000       0x30 /tmp/ccIXav0I.o
+ .debug_line    0x00000000      0x315 /tmp/ccIXav0I.o
+ .debug_str     0x00000000      0x77b /tmp/ccIXav0I.o
+ .comment       0x00000000       0x2f /tmp/ccIXav0I.o
+ .debug_frame   0x00000000       0x50 /tmp/ccIXav0I.o
+ .text          0x00000000      0x418 /tmp/cciFj6os.o
+ .data          0x00000000        0x0 /tmp/cciFj6os.o
+ .bss           0x00000000        0x0 /tmp/cciFj6os.o
+ .rodata.str1.4
+                0x00000000       0x18 /tmp/cciFj6os.o
+ .text          0x00000000        0x0 components/bsp/soc/boot/bootloader//libbootloader.a(ota_c.o)
+ .data          0x00000000        0x0 components/bsp/soc/boot/bootloader//libbootloader.a(ota_c.o)
+ .bss           0x00000000        0x0 components/bsp/soc/boot/bootloader//libbootloader.a(ota_c.o)
+ .text.fota_fs_upgrade
+                0x00000000      0x110 components/bsp/soc/boot/bootloader//libbootloader.a(ota_c.o)
+ .text          0x00000000        0x0 components/bsp/soc/boot/bootloader//libbootloader.a(serial.o)
+ .data          0x00000000        0x0 components/bsp/soc/boot/bootloader//libbootloader.a(serial.o)
+ .bss           0x00000000        0x0 components/bsp/soc/boot/bootloader//libbootloader.a(serial.o)
+ .text.serial_uart1_init
+                0x00000000       0xc4 components/bsp/soc/boot/bootloader//libbootloader.a(serial.o)
+ .text.serial_uart1_tx
+                0x00000000       0x14 components/bsp/soc/boot/bootloader//libbootloader.a(serial.o)
+ .text.serial_uart1_rx_ready
+                0x00000000       0x10 components/bsp/soc/boot/bootloader//libbootloader.a(serial.o)
+ .text.serial_uart1_rx
+                0x00000000        0xc components/bsp/soc/boot/bootloader//libbootloader.a(serial.o)
+ .text          0x00000000        0x0 components/bsp/soc/boot/bootloader//libbootloader.a(mstick.o)
+ .data          0x00000000        0x0 components/bsp/soc/boot/bootloader//libbootloader.a(mstick.o)
+ .bss           0x00000000        0x0 components/bsp/soc/boot/bootloader//libbootloader.a(mstick.o)
+ .text.mstick_mdelay
+                0x00000000       0x1c components/bsp/soc/boot/bootloader//libbootloader.a(mstick.o)
+ .text          0x00000000        0x0 components/bsp/soc/boot/bootloader//libbootloader.a(ota_flash.o)
+ .data          0x00000000        0x0 components/bsp/soc/boot/bootloader//libbootloader.a(ota_flash.o)
+ .bss           0x00000000        0x0 components/bsp/soc/boot/bootloader//libbootloader.a(ota_flash.o)
+ .text.force_wait
+                0x00000000       0x14 components/bsp/soc/boot/bootloader//libbootloader.a(ota_flash.o)
+ .text          0x00000000        0x0 components/bsp/soc/boot/bootloader//libbootloader.a(hal_gpio.o)
+ .data          0x00000000        0x0 components/bsp/soc/boot/bootloader//libbootloader.a(hal_gpio.o)
+ .bss           0x00000000        0x0 components/bsp/soc/boot/bootloader//libbootloader.a(hal_gpio.o)
+ .text.hal_gpio_set_mode
+                0x00000000       0x58 components/bsp/soc/boot/bootloader//libbootloader.a(hal_gpio.o)
+ .text.hal_gpio_set_dir
+                0x00000000       0x74 components/bsp/soc/boot/bootloader//libbootloader.a(hal_gpio.o)
+ .text.hal_gpio_get_dir
+                0x00000000       0x70 components/bsp/soc/boot/bootloader//libbootloader.a(hal_gpio.o)
+ .text.hal_gpio_set_pull
+                0x00000000       0x78 components/bsp/soc/boot/bootloader//libbootloader.a(hal_gpio.o)
+ .text.hal_gpio_get_pull
+                0x00000000       0x58 components/bsp/soc/boot/bootloader//libbootloader.a(hal_gpio.o)
+ .text.hal_gpio_set_logic
+                0x00000000       0x38 components/bsp/soc/boot/bootloader//libbootloader.a(hal_gpio.o)
+ .text.hal_gpio_get_logic
+                0x00000000       0x1c components/bsp/soc/boot/bootloader//libbootloader.a(hal_gpio.o)
+ .text.hal_gpio_set_driving_strengh
+                0x00000000       0x34 components/bsp/soc/boot/bootloader//libbootloader.a(hal_gpio.o)
+ .text.hal_gpio_intc_trigger_mode
+                0x00000000       0x54 components/bsp/soc/boot/bootloader//libbootloader.a(hal_gpio.o)
+ .text.hal_gpio_intc_clear_counter
+                0x00000000       0x5c components/bsp/soc/boot/bootloader//libbootloader.a(hal_gpio.o)
+ .text          0x00000000        0x0 components/bsp/soc/boot/bootloader//libbootloader.a(hal_pinmux.o)
+ .data          0x00000000        0x0 components/bsp/soc/boot/bootloader//libbootloader.a(hal_pinmux.o)
+ .bss           0x00000000        0x0 components/bsp/soc/boot/bootloader//libbootloader.a(hal_pinmux.o)
+ .text.hal_pinmux_manual_function_select_enable
+                0x00000000      0x594 components/bsp/soc/boot/bootloader//libbootloader.a(hal_pinmux.o)
+ .text.hal_pinmux_manual_function_select_disable
+                0x00000000      0x370 components/bsp/soc/boot/bootloader//libbootloader.a(hal_pinmux.o)
+ .text          0x00000000        0x0 components/bsp/soc/boot/bootloader//libbootloader.a(xmodem.o)
+ .data          0x00000000        0x0 components/bsp/soc/boot/bootloader//libbootloader.a(xmodem.o)
+ .bss           0x00000000        0x0 components/bsp/soc/boot/bootloader//libbootloader.a(xmodem.o)
+ .text          0x00000000        0x0 components/bsp/soc/boot/bootloader//libbootloader.a(crc16.o)
+ .data          0x00000000        0x0 components/bsp/soc/boot/bootloader//libbootloader.a(crc16.o)
+ .bss           0x00000000        0x0 components/bsp/soc/boot/bootloader//libbootloader.a(crc16.o)
+ .text.Calculate_CRC
+                0x00000000       0x48 components/bsp/soc/boot/bootloader//libbootloader.a(crc16.o)
+ .text          0x00000000        0x0 components/bsp/soc/boot/bootloader//libbootloader.a(tiny_printf.o)
+ .data          0x00000000        0x0 components/bsp/soc/boot/bootloader//libbootloader.a(tiny_printf.o)
+ .bss           0x00000000        0x0 components/bsp/soc/boot/bootloader//libbootloader.a(tiny_printf.o)
+ .text.tiny_vprintf
+                0x00000000       0x18 components/bsp/soc/boot/bootloader//libbootloader.a(tiny_printf.o)
+ .text          0x00000000        0x0 components/bsp/soc/boot/bootloader//libbootloader.a(tiny_do_printf.o)
+ .data          0x00000000        0x0 components/bsp/soc/boot/bootloader//libbootloader.a(tiny_do_printf.o)
+ .bss           0x00000000        0x0 components/bsp/soc/boot/bootloader//libbootloader.a(tiny_do_printf.o)
+ .text          0x00000000        0x0 components/bsp/soc/boot/bootloader//libbootloader.a(ota_ssv_spiffs.o)
+ .data          0x00000000        0x0 components/bsp/soc/boot/bootloader//libbootloader.a(ota_ssv_spiffs.o)
+ .bss           0x00000000        0x0 components/bsp/soc/boot/bootloader//libbootloader.a(ota_ssv_spiffs.o)
+ .text._spiffs_read
+                0x00000000       0x28 components/bsp/soc/boot/bootloader//libbootloader.a(ota_ssv_spiffs.o)
+ .rodata.str1.4
+                0x00000000       0xc4 components/bsp/soc/boot/bootloader//libbootloader.a(ota_ssv_spiffs.o)
+ .text.OTA_SPIFFS_init
+                0x00000000      0x148 components/bsp/soc/boot/bootloader//libbootloader.a(ota_ssv_spiffs.o)
+ .text.OTA_SPIFFS_find_and_check
+                0x00000000      0x21c components/bsp/soc/boot/bootloader//libbootloader.a(ota_ssv_spiffs.o)
+ .text.OTA_SPIFFS_find_and_update
+                0x00000000      0x210 components/bsp/soc/boot/bootloader//libbootloader.a(ota_ssv_spiffs.o)
+ .bss.buf_array
+                0x00000000      0x400 components/bsp/soc/boot/bootloader//libbootloader.a(ota_ssv_spiffs.o)
+ .bss.cache_buf
+                0x00000000        0x8 components/bsp/soc/boot/bootloader//libbootloader.a(ota_ssv_spiffs.o)
+ .bss.fds_buf   0x00000000        0x8 components/bsp/soc/boot/bootloader//libbootloader.a(ota_ssv_spiffs.o)
+ .bss.work_buf  0x00000000        0x8 components/bsp/soc/boot/bootloader//libbootloader.a(ota_ssv_spiffs.o)
+ .bss.config    0x00000000       0x24 components/bsp/soc/boot/bootloader//libbootloader.a(ota_ssv_spiffs.o)
+ .bss.fs        0x00000000       0x70 components/bsp/soc/boot/bootloader//libbootloader.a(ota_ssv_spiffs.o)
+ .comment       0x00000000       0x2f components/bsp/soc/boot/bootloader//libbootloader.a(ota_ssv_spiffs.o)
+ .text          0x00000000        0x0 components/bsp/soc/boot/bootloader//libbootloader.a(efuse.o)
+ .data          0x00000000        0x0 components/bsp/soc/boot/bootloader//libbootloader.a(efuse.o)
+ .bss           0x00000000        0x0 components/bsp/soc/boot/bootloader//libbootloader.a(efuse.o)
+ .data          0x00000000        0x0 components/bsp/soc/boot/bootloader//libbootloader.a(ota.o)
+ .text          0x00000000        0x0 components/bsp/soc/boot/bootloader//libbootloader.a(boot_rnd.o)
+ .data          0x00000000        0x0 components/bsp/soc/boot/bootloader//libbootloader.a(boot_rnd.o)
+ .bss           0x00000000        0x0 components/bsp/soc/boot/bootloader//libbootloader.a(boot_rnd.o)
+ .text          0x00000000        0x0 components/bsp/soc/boot/bootloader//libbootloader.a(ota_init_mem.o)
+ .data          0x00000000        0x0 components/bsp/soc/boot/bootloader//libbootloader.a(ota_init_mem.o)
+ .bss           0x00000000        0x0 components/bsp/soc/boot/bootloader//libbootloader.a(ota_init_mem.o)
+ .text          0x00000000        0x0 components/bsp/soc/boot/bootloader//libbootloader.a(ota_clock.o)
+ .data          0x00000000        0x0 components/bsp/soc/boot/bootloader//libbootloader.a(ota_clock.o)
+ .bss           0x00000000        0x0 components/bsp/soc/boot/bootloader//libbootloader.a(ota_clock.o)
+ .text          0x00000000        0x0 components/bsp/soc/boot/bootloader//libbootloader.a(my_lib.o)
+ .data          0x00000000        0x0 components/bsp/soc/boot/bootloader//libbootloader.a(my_lib.o)
+ .bss           0x00000000        0x0 components/bsp/soc/boot/bootloader//libbootloader.a(my_lib.o)
+ .text.my_strcpy
+                0x00000000       0x20 components/bsp/soc/boot/bootloader//libbootloader.a(my_lib.o)
+ .text.my_strncpy
+                0x00000000       0x34 components/bsp/soc/boot/bootloader//libbootloader.a(my_lib.o)
+ .text.my_strcmp
+                0x00000000       0x34 components/bsp/soc/boot/bootloader//libbootloader.a(my_lib.o)
+ .text.my_strncmp
+                0x00000000       0x3c components/bsp/soc/boot/bootloader//libbootloader.a(my_lib.o)
+ .text.my_memcmp
+                0x00000000       0x2c components/bsp/soc/boot/bootloader//libbootloader.a(my_lib.o)
+ .text.my_memset
+                0x00000000       0x14 components/bsp/soc/boot/bootloader//libbootloader.a(my_lib.o)
+ .text          0x00000000        0x0 components/bsp/soc/boot/bootloader//libbootloader.a(fota_md5.o)
+ .data          0x00000000        0x0 components/bsp/soc/boot/bootloader//libbootloader.a(fota_md5.o)
+ .bss           0x00000000        0x0 components/bsp/soc/boot/bootloader//libbootloader.a(fota_md5.o)
+ .text.body     0x00000000      0xaf4 components/bsp/soc/boot/bootloader//libbootloader.a(fota_md5.o)
+ .text.MD5_Init
+                0x00000000       0x30 components/bsp/soc/boot/bootloader//libbootloader.a(fota_md5.o)
+ .text.MD5_Update
+                0x00000000       0xc4 components/bsp/soc/boot/bootloader//libbootloader.a(fota_md5.o)
+ .text.MD5_Final
+                0x00000000      0x140 components/bsp/soc/boot/bootloader//libbootloader.a(fota_md5.o)
+ .text          0x00000000        0x0 components/bsp/soc/boot/bootloader//libbootloader.a(ota_spiffs_hydrogen.o)
+ .data          0x00000000        0x0 components/bsp/soc/boot/bootloader//libbootloader.a(ota_spiffs_hydrogen.o)
+ .bss           0x00000000        0x0 components/bsp/soc/boot/bootloader//libbootloader.a(ota_spiffs_hydrogen.o)
+ .text.spiffs_read_dir_v
+                0x00000000       0xb4 components/bsp/soc/boot/bootloader//libbootloader.a(ota_spiffs_hydrogen.o)
+ .text.spiffs_stat_pix.isra.0
+                0x00000000       0xc8 components/bsp/soc/boot/bootloader//libbootloader.a(ota_spiffs_hydrogen.o)
+ .text.otaSPIFFS_buffer_bytes_for_filedescs
+                0x00000000        0x4 components/bsp/soc/boot/bootloader//libbootloader.a(ota_spiffs_hydrogen.o)
+ .text.otaSPIFFS_mounted
+                0x00000000        0xc components/bsp/soc/boot/bootloader//libbootloader.a(ota_spiffs_hydrogen.o)
+ .text.otaSPIFFS_format
+                0x00000000        0x8 components/bsp/soc/boot/bootloader//libbootloader.a(ota_spiffs_hydrogen.o)
+ .text.otaSPIFFS_probe_fs
+                0x00000000        0xc components/bsp/soc/boot/bootloader//libbootloader.a(ota_spiffs_hydrogen.o)
+ .text.otaSPIFFS_mount
+                0x00000000       0xec components/bsp/soc/boot/bootloader//libbootloader.a(ota_spiffs_hydrogen.o)
+ .text.otaSPIFFS_unmount
+                0x00000000       0x6c components/bsp/soc/boot/bootloader//libbootloader.a(ota_spiffs_hydrogen.o)
+ .text.otaSPIFFS_errno
+                0x00000000        0x8 components/bsp/soc/boot/bootloader//libbootloader.a(ota_spiffs_hydrogen.o)
+ .text.otaSPIFFS_clearerr
+                0x00000000        0x8 components/bsp/soc/boot/bootloader//libbootloader.a(ota_spiffs_hydrogen.o)
+ .text.otaSPIFFS_creat
+                0x00000000        0x8 components/bsp/soc/boot/bootloader//libbootloader.a(ota_spiffs_hydrogen.o)
+ .text.otaSPIFFS_open
+                0x00000000       0xf8 components/bsp/soc/boot/bootloader//libbootloader.a(ota_spiffs_hydrogen.o)
+ .text.otaSPIFFS_open_by_dirent
+                0x00000000       0xb8 components/bsp/soc/boot/bootloader//libbootloader.a(ota_spiffs_hydrogen.o)
+ .text.otaSPIFFS_open_by_page
+                0x00000000      0x120 components/bsp/soc/boot/bootloader//libbootloader.a(ota_spiffs_hydrogen.o)
+ .text.otaSPIFFS_read
+                0x00000000       0xe4 components/bsp/soc/boot/bootloader//libbootloader.a(ota_spiffs_hydrogen.o)
+ .text.otaSPIFFS_write
+                0x00000000        0x8 components/bsp/soc/boot/bootloader//libbootloader.a(ota_spiffs_hydrogen.o)
+ .text.otaSPIFFS_lseek
+                0x00000000      0x100 components/bsp/soc/boot/bootloader//libbootloader.a(ota_spiffs_hydrogen.o)
+ .text.otaSPIFFS_remove
+                0x00000000        0x8 components/bsp/soc/boot/bootloader//libbootloader.a(ota_spiffs_hydrogen.o)
+ .text.otaSPIFFS_fremove
+                0x00000000        0x8 components/bsp/soc/boot/bootloader//libbootloader.a(ota_spiffs_hydrogen.o)
+ .text.otaSPIFFS_stat
+                0x00000000       0xa0 components/bsp/soc/boot/bootloader//libbootloader.a(ota_spiffs_hydrogen.o)
+ .text.otaSPIFFS_fstat
+                0x00000000       0x80 components/bsp/soc/boot/bootloader//libbootloader.a(ota_spiffs_hydrogen.o)
+ .text.otaSPIFFS_fflush
+                0x00000000       0x34 components/bsp/soc/boot/bootloader//libbootloader.a(ota_spiffs_hydrogen.o)
+ .text.otaSPIFFS_close
+                0x00000000       0x60 components/bsp/soc/boot/bootloader//libbootloader.a(ota_spiffs_hydrogen.o)
+ .text.otaSPIFFS_rename
+                0x00000000        0x8 components/bsp/soc/boot/bootloader//libbootloader.a(ota_spiffs_hydrogen.o)
+ .text.otaSPIFFS_opendir
+                0x00000000       0x3c components/bsp/soc/boot/bootloader//libbootloader.a(ota_spiffs_hydrogen.o)
+ .text.otaSPIFFS_readdir
+                0x00000000       0x7c components/bsp/soc/boot/bootloader//libbootloader.a(ota_spiffs_hydrogen.o)
+ .text.otaSPIFFS_closedir
+                0x00000000       0x34 components/bsp/soc/boot/bootloader//libbootloader.a(ota_spiffs_hydrogen.o)
+ .text.otaSPIFFS_check
+                0x00000000        0x8 components/bsp/soc/boot/bootloader//libbootloader.a(ota_spiffs_hydrogen.o)
+ .text.otaSPIFFS_info
+                0x00000000       0x74 components/bsp/soc/boot/bootloader//libbootloader.a(ota_spiffs_hydrogen.o)
+ .text.otaSPIFFS_gc_quick
+                0x00000000        0x8 components/bsp/soc/boot/bootloader//libbootloader.a(ota_spiffs_hydrogen.o)
+ .text.otaSPIFFS_gc
+                0x00000000        0x8 components/bsp/soc/boot/bootloader//libbootloader.a(ota_spiffs_hydrogen.o)
+ .text.otaSPIFFS_eof
+                0x00000000       0x84 components/bsp/soc/boot/bootloader//libbootloader.a(ota_spiffs_hydrogen.o)
+ .text.otaSPIFFS_tell
+                0x00000000       0x70 components/bsp/soc/boot/bootloader//libbootloader.a(ota_spiffs_hydrogen.o)
+ .text.otaSPIFFS_set_file_callback_func
+                0x00000000        0x8 components/bsp/soc/boot/bootloader//libbootloader.a(ota_spiffs_hydrogen.o)
+ .text          0x00000000        0x0 components/bsp/soc/boot/bootloader//libbootloader.a(ota_spiffs_nucleus.o)
+ .data          0x00000000        0x0 components/bsp/soc/boot/bootloader//libbootloader.a(ota_spiffs_nucleus.o)
+ .bss           0x00000000        0x0 components/bsp/soc/boot/bootloader//libbootloader.a(ota_spiffs_nucleus.o)
+ .text.spiffs_obj_lu_find_id_and_span_v
+                0x00000000       0xa0 components/bsp/soc/boot/bootloader//libbootloader.a(ota_spiffs_nucleus.o)
+ .text.spiffs_object_find_object_index_header_by_name_v
+                0x00000000       0x9c components/bsp/soc/boot/bootloader//libbootloader.a(ota_spiffs_nucleus.o)
+ .text.spiffs_obj_lu_scan_v
+                0x00000000       0x40 components/bsp/soc/boot/bootloader//libbootloader.a(ota_spiffs_nucleus.o)
+ .text.otaspiffs_phys_rd
+                0x00000000       0x18 components/bsp/soc/boot/bootloader//libbootloader.a(ota_spiffs_nucleus.o)
+ .text.otaspiffs_phys_wr
+                0x00000000       0x18 components/bsp/soc/boot/bootloader//libbootloader.a(ota_spiffs_nucleus.o)
+ .text.otaspiffs_obj_lu_find_entry_visitor
+                0x00000000      0x234 components/bsp/soc/boot/bootloader//libbootloader.a(ota_spiffs_nucleus.o)
+ .text.otaspiffs_probe
+                0x00000000      0x108 components/bsp/soc/boot/bootloader//libbootloader.a(ota_spiffs_nucleus.o)
+ .text.otaspiffs_obj_lu_scan
+                0x00000000      0x160 components/bsp/soc/boot/bootloader//libbootloader.a(ota_spiffs_nucleus.o)
+ .text.otaspiffs_obj_lu_find_id
+                0x00000000       0x40 components/bsp/soc/boot/bootloader//libbootloader.a(ota_spiffs_nucleus.o)
+ .text.otaspiffs_obj_lu_find_id_and_span
+                0x00000000       0xac components/bsp/soc/boot/bootloader//libbootloader.a(ota_spiffs_nucleus.o)
+ .text.otaspiffs_obj_lu_find_id_and_span_by_phdr
+                0x00000000       0xac components/bsp/soc/boot/bootloader//libbootloader.a(ota_spiffs_nucleus.o)
+ .text.otaspiffs_cb_object_event
+                0x00000000       0xc0 components/bsp/soc/boot/bootloader//libbootloader.a(ota_spiffs_nucleus.o)
+ .text.otaspiffs_object_open_by_page
+                0x00000000       0xc8 components/bsp/soc/boot/bootloader//libbootloader.a(ota_spiffs_nucleus.o)
+ .text.otaspiffs_object_open_by_id
+                0x00000000       0x4c components/bsp/soc/boot/bootloader//libbootloader.a(ota_spiffs_nucleus.o)
+ .text.otaspiffs_object_find_object_index_header_by_name
+                0x00000000       0x94 components/bsp/soc/boot/bootloader//libbootloader.a(ota_spiffs_nucleus.o)
+ .text.otaspiffs_object_read
+                0x00000000      0x2a8 components/bsp/soc/boot/bootloader//libbootloader.a(ota_spiffs_nucleus.o)
+ .text.otaspiffs_fd_find_new
+                0x00000000       0x44 components/bsp/soc/boot/bootloader//libbootloader.a(ota_spiffs_nucleus.o)
+ .text.otaspiffs_fd_return
+                0x00000000       0x38 components/bsp/soc/boot/bootloader//libbootloader.a(ota_spiffs_nucleus.o)
+ .text.otaspiffs_fd_get
+                0x00000000       0x34 components/bsp/soc/boot/bootloader//libbootloader.a(ota_spiffs_nucleus.o)
+ .text          0x00000000      0x118 /opt/tools/BSPv420/toolchains/nds32le-elf-mculib-v3/bin/../lib/gcc/nds32le-elf/4.9.4/mcmodel-large/libgcc.a(_addsub_sf.o)
+ .data          0x00000000        0x0 /opt/tools/BSPv420/toolchains/nds32le-elf-mculib-v3/bin/../lib/gcc/nds32le-elf/4.9.4/mcmodel-large/libgcc.a(_addsub_sf.o)
+ .bss           0x00000000        0x0 /opt/tools/BSPv420/toolchains/nds32le-elf-mculib-v3/bin/../lib/gcc/nds32le-elf/4.9.4/mcmodel-large/libgcc.a(_addsub_sf.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 /opt/tools/BSPv420/toolchains/nds32le-elf-mculib-v3/bin/../lib/gcc/nds32le-elf/4.9.4/mcmodel-large/libgcc.a(_addsub_sf.o)
+ .debug_line    0x00000000      0x2bf /opt/tools/BSPv420/toolchains/nds32le-elf-mculib-v3/bin/../lib/gcc/nds32le-elf/4.9.4/mcmodel-large/libgcc.a(_addsub_sf.o)
+ .debug_info    0x00000000      0x147 /opt/tools/BSPv420/toolchains/nds32le-elf-mculib-v3/bin/../lib/gcc/nds32le-elf/4.9.4/mcmodel-large/libgcc.a(_addsub_sf.o)
+ .debug_abbrev  0x00000000       0x14 /opt/tools/BSPv420/toolchains/nds32le-elf-mculib-v3/bin/../lib/gcc/nds32le-elf/4.9.4/mcmodel-large/libgcc.a(_addsub_sf.o)
+ .debug_aranges
+                0x00000000       0x20 /opt/tools/BSPv420/toolchains/nds32le-elf-mculib-v3/bin/../lib/gcc/nds32le-elf/4.9.4/mcmodel-large/libgcc.a(_addsub_sf.o)
+ .text          0x00000000       0xe8 /opt/tools/BSPv420/toolchains/nds32le-elf-mculib-v3/bin/../lib/gcc/nds32le-elf/4.9.4/mcmodel-large/libgcc.a(_mul_sf.o)
+ .data          0x00000000        0x0 /opt/tools/BSPv420/toolchains/nds32le-elf-mculib-v3/bin/../lib/gcc/nds32le-elf/4.9.4/mcmodel-large/libgcc.a(_mul_sf.o)
+ .bss           0x00000000        0x0 /opt/tools/BSPv420/toolchains/nds32le-elf-mculib-v3/bin/../lib/gcc/nds32le-elf/4.9.4/mcmodel-large/libgcc.a(_mul_sf.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 /opt/tools/BSPv420/toolchains/nds32le-elf-mculib-v3/bin/../lib/gcc/nds32le-elf/4.9.4/mcmodel-large/libgcc.a(_mul_sf.o)
+ .debug_line    0x00000000      0x26c /opt/tools/BSPv420/toolchains/nds32le-elf-mculib-v3/bin/../lib/gcc/nds32le-elf/4.9.4/mcmodel-large/libgcc.a(_mul_sf.o)
+ .debug_info    0x00000000      0x147 /opt/tools/BSPv420/toolchains/nds32le-elf-mculib-v3/bin/../lib/gcc/nds32le-elf/4.9.4/mcmodel-large/libgcc.a(_mul_sf.o)
+ .debug_abbrev  0x00000000       0x14 /opt/tools/BSPv420/toolchains/nds32le-elf-mculib-v3/bin/../lib/gcc/nds32le-elf/4.9.4/mcmodel-large/libgcc.a(_mul_sf.o)
+ .debug_aranges
+                0x00000000       0x20 /opt/tools/BSPv420/toolchains/nds32le-elf-mculib-v3/bin/../lib/gcc/nds32le-elf/4.9.4/mcmodel-large/libgcc.a(_mul_sf.o)
+ .text          0x00000000      0x130 /opt/tools/BSPv420/toolchains/nds32le-elf-mculib-v3/bin/../lib/gcc/nds32le-elf/4.9.4/mcmodel-large/libgcc.a(_div_sf.o)
+ .data          0x00000000        0x0 /opt/tools/BSPv420/toolchains/nds32le-elf-mculib-v3/bin/../lib/gcc/nds32le-elf/4.9.4/mcmodel-large/libgcc.a(_div_sf.o)
+ .bss           0x00000000        0x0 /opt/tools/BSPv420/toolchains/nds32le-elf-mculib-v3/bin/../lib/gcc/nds32le-elf/4.9.4/mcmodel-large/libgcc.a(_div_sf.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 /opt/tools/BSPv420/toolchains/nds32le-elf-mculib-v3/bin/../lib/gcc/nds32le-elf/4.9.4/mcmodel-large/libgcc.a(_div_sf.o)
+ .debug_line    0x00000000      0x2f6 /opt/tools/BSPv420/toolchains/nds32le-elf-mculib-v3/bin/../lib/gcc/nds32le-elf/4.9.4/mcmodel-large/libgcc.a(_div_sf.o)
+ .debug_info    0x00000000      0x147 /opt/tools/BSPv420/toolchains/nds32le-elf-mculib-v3/bin/../lib/gcc/nds32le-elf/4.9.4/mcmodel-large/libgcc.a(_div_sf.o)
+ .debug_abbrev  0x00000000       0x14 /opt/tools/BSPv420/toolchains/nds32le-elf-mculib-v3/bin/../lib/gcc/nds32le-elf/4.9.4/mcmodel-large/libgcc.a(_div_sf.o)
+ .debug_aranges
+                0x00000000       0x20 /opt/tools/BSPv420/toolchains/nds32le-elf-mculib-v3/bin/../lib/gcc/nds32le-elf/4.9.4/mcmodel-large/libgcc.a(_div_sf.o)
+ .text          0x00000000       0x30 /opt/tools/BSPv420/toolchains/nds32le-elf-mculib-v3/bin/../lib/gcc/nds32le-elf/4.9.4/mcmodel-large/libgcc.a(_fixunssfsi.o)
+ .data          0x00000000        0x0 /opt/tools/BSPv420/toolchains/nds32le-elf-mculib-v3/bin/../lib/gcc/nds32le-elf/4.9.4/mcmodel-large/libgcc.a(_fixunssfsi.o)
+ .bss           0x00000000        0x0 /opt/tools/BSPv420/toolchains/nds32le-elf-mculib-v3/bin/../lib/gcc/nds32le-elf/4.9.4/mcmodel-large/libgcc.a(_fixunssfsi.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 /opt/tools/BSPv420/toolchains/nds32le-elf-mculib-v3/bin/../lib/gcc/nds32le-elf/4.9.4/mcmodel-large/libgcc.a(_fixunssfsi.o)
+ .debug_line    0x00000000      0x10a /opt/tools/BSPv420/toolchains/nds32le-elf-mculib-v3/bin/../lib/gcc/nds32le-elf/4.9.4/mcmodel-large/libgcc.a(_fixunssfsi.o)
+ .debug_info    0x00000000      0x147 /opt/tools/BSPv420/toolchains/nds32le-elf-mculib-v3/bin/../lib/gcc/nds32le-elf/4.9.4/mcmodel-large/libgcc.a(_fixunssfsi.o)
+ .debug_abbrev  0x00000000       0x14 /opt/tools/BSPv420/toolchains/nds32le-elf-mculib-v3/bin/../lib/gcc/nds32le-elf/4.9.4/mcmodel-large/libgcc.a(_fixunssfsi.o)
+ .debug_aranges
+                0x00000000       0x20 /opt/tools/BSPv420/toolchains/nds32le-elf-mculib-v3/bin/../lib/gcc/nds32le-elf/4.9.4/mcmodel-large/libgcc.a(_fixunssfsi.o)
+ .text          0x00000000       0x40 /opt/tools/BSPv420/toolchains/nds32le-elf-mculib-v3/bin/../lib/gcc/nds32le-elf/4.9.4/mcmodel-large/libgcc.a(_si_to_sf.o)
+ .data          0x00000000        0x0 /opt/tools/BSPv420/toolchains/nds32le-elf-mculib-v3/bin/../lib/gcc/nds32le-elf/4.9.4/mcmodel-large/libgcc.a(_si_to_sf.o)
+ .bss           0x00000000        0x0 /opt/tools/BSPv420/toolchains/nds32le-elf-mculib-v3/bin/../lib/gcc/nds32le-elf/4.9.4/mcmodel-large/libgcc.a(_si_to_sf.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 /opt/tools/BSPv420/toolchains/nds32le-elf-mculib-v3/bin/../lib/gcc/nds32le-elf/4.9.4/mcmodel-large/libgcc.a(_si_to_sf.o)
+ .debug_line    0x00000000      0x13a /opt/tools/BSPv420/toolchains/nds32le-elf-mculib-v3/bin/../lib/gcc/nds32le-elf/4.9.4/mcmodel-large/libgcc.a(_si_to_sf.o)
+ .debug_info    0x00000000      0x147 /opt/tools/BSPv420/toolchains/nds32le-elf-mculib-v3/bin/../lib/gcc/nds32le-elf/4.9.4/mcmodel-large/libgcc.a(_si_to_sf.o)
+ .debug_abbrev  0x00000000       0x14 /opt/tools/BSPv420/toolchains/nds32le-elf-mculib-v3/bin/../lib/gcc/nds32le-elf/4.9.4/mcmodel-large/libgcc.a(_si_to_sf.o)
+ .debug_aranges
+                0x00000000       0x20 /opt/tools/BSPv420/toolchains/nds32le-elf-mculib-v3/bin/../lib/gcc/nds32le-elf/4.9.4/mcmodel-large/libgcc.a(_si_to_sf.o)
+ .text          0x00000000       0x30 /opt/tools/BSPv420/toolchains/nds32le-elf-mculib-v3/bin/../lib/gcc/nds32le-elf/4.9.4/mcmodel-large/libgcc.a(_floatunsisf.o)
+ .data          0x00000000        0x0 /opt/tools/BSPv420/toolchains/nds32le-elf-mculib-v3/bin/../lib/gcc/nds32le-elf/4.9.4/mcmodel-large/libgcc.a(_floatunsisf.o)
+ .bss           0x00000000        0x0 /opt/tools/BSPv420/toolchains/nds32le-elf-mculib-v3/bin/../lib/gcc/nds32le-elf/4.9.4/mcmodel-large/libgcc.a(_floatunsisf.o)
+ .mdebug.abi_nds32
+                0x00000000        0x0 /opt/tools/BSPv420/toolchains/nds32le-elf-mculib-v3/bin/../lib/gcc/nds32le-elf/4.9.4/mcmodel-large/libgcc.a(_floatunsisf.o)
+ .debug_line    0x00000000      0x116 /opt/tools/BSPv420/toolchains/nds32le-elf-mculib-v3/bin/../lib/gcc/nds32le-elf/4.9.4/mcmodel-large/libgcc.a(_floatunsisf.o)
+ .debug_info    0x00000000      0x147 /opt/tools/BSPv420/toolchains/nds32le-elf-mculib-v3/bin/../lib/gcc/nds32le-elf/4.9.4/mcmodel-large/libgcc.a(_floatunsisf.o)
+ .debug_abbrev  0x00000000       0x14 /opt/tools/BSPv420/toolchains/nds32le-elf-mculib-v3/bin/../lib/gcc/nds32le-elf/4.9.4/mcmodel-large/libgcc.a(_floatunsisf.o)
+ .debug_aranges
+                0x00000000       0x20 /opt/tools/BSPv420/toolchains/nds32le-elf-mculib-v3/bin/../lib/gcc/nds32le-elf/4.9.4/mcmodel-large/libgcc.a(_floatunsisf.o)
+ .text          0x00000000       0x34 /opt/tools/BSPv420/toolchains/nds32le-elf-mculib-v3/bin/../lib/gcc/nds32le-elf/4.9.4/../../../../nds32le-elf/lib/mcmodel-large/libc.a(lib_a-memcpy.o)
+ .data          0x00000000        0x0 /opt/tools/BSPv420/toolchains/nds32le-elf-mculib-v3/bin/../lib/gcc/nds32le-elf/4.9.4/../../../../nds32le-elf/lib/mcmodel-large/libc.a(lib_a-memcpy.o)
+ .bss           0x00000000        0x0 /opt/tools/BSPv420/toolchains/nds32le-elf-mculib-v3/bin/../lib/gcc/nds32le-elf/4.9.4/../../../../nds32le-elf/lib/mcmodel-large/libc.a(lib_a-memcpy.o)
+ .text          0x00000000       0x34 /opt/tools/BSPv420/toolchains/nds32le-elf-mculib-v3/bin/../lib/gcc/nds32le-elf/4.9.4/../../../../nds32le-elf/lib/mcmodel-large/libc.a(lib_a-memset.o)
+ .data          0x00000000        0x0 /opt/tools/BSPv420/toolchains/nds32le-elf-mculib-v3/bin/../lib/gcc/nds32le-elf/4.9.4/../../../../nds32le-elf/lib/mcmodel-large/libc.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 /opt/tools/BSPv420/toolchains/nds32le-elf-mculib-v3/bin/../lib/gcc/nds32le-elf/4.9.4/../../../../nds32le-elf/lib/mcmodel-large/libc.a(lib_a-memset.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+SRAM_ILM         0x00000000         0x00010000         xrw
+SRAM_DLM         0x00100000         0x00020000         rw
+RENT_SRAM        0x00200000         0x00002000         xrw
+FLASH_BOOT       0x30000000         0x00004000         xr
+FLASH_PARAM      0x30004000         0x00007000         xr
+FLASH_XIP1       0x3000b000         0x0009b000         xr
+FLASH_XIP2       0x300a6000         0x0009b000         xr
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD /tmp/cccF8t5D.o
+LOAD /tmp/ccgqrz18.o
+LOAD /tmp/ccIXav0I.o
+LOAD /tmp/cciFj6os.o
+LOAD components/bsp/soc/boot/bootloader//libbootloader.a
+LOAD /opt/tools/BSPv420/toolchains/nds32le-elf-mculib-v3/bin/../lib/gcc/nds32le-elf/4.9.4/mcmodel-large/libgcc.a
+START GROUP
+LOAD /opt/tools/BSPv420/toolchains/nds32le-elf-mculib-v3/bin/../lib/gcc/nds32le-elf/4.9.4/../../../../nds32le-elf/lib/mcmodel-large/libc.a
+LOAD /opt/tools/BSPv420/toolchains/nds32le-elf-mculib-v3/bin/../lib/gcc/nds32le-elf/4.9.4/../../../../nds32le-elf/lib/mcmodel-large/libgloss.a
+LOAD /opt/tools/BSPv420/toolchains/nds32le-elf-mculib-v3/bin/../lib/gcc/nds32le-elf/4.9.4/../../../../nds32le-elf/lib/mcmodel-large/libnosys.a
+END GROUP
+LOAD /opt/tools/BSPv420/toolchains/nds32le-elf-mculib-v3/bin/../lib/gcc/nds32le-elf/4.9.4/mcmodel-large/libgcc.a
+                0x00100000                _SDA_BASE_ = 0x100000
+                0x00000000                __executable_start = 0x0
+                0x30000000                NDS_SAG_LMA_ROM = 0x30000000
+                0x30000000                FLASH_BEGIN = NDS_SAG_LMA_ROM
+                0x00000028                __xtal = 0x28
+                0x00000050                __sys_bus_speed = 0x50
+                0x00000004                __xip_bit = 0x4
+                0x0009b000                __setting_partition_main_size = 0x9b000
+                0x00200000                __setting_flash_total_size = 0x200000
+                0x38000000                __setting_psram_heap_base = 0x38000000
+                0x00000000                __setting_psram_heap_size = 0x0
+                0x3000b000                __app_xip1 = ORIGIN (REGION_MAIN1)
+                0x300a6000                __app_xip2 = ORIGIN (REGION_MAIN2)
+                0x30141000                __fs_start_addr = (ORIGIN (REGION_LAST) + 0x9b000)
+                0x00141000                __img_max_size = ((ORIGIN (REGION_LAST) + 0x9b000) - 0x30000000)
+                0x00000002                __fota_option = 0x2
+                0x30004000                __fota_data = ORIGIN (REGION_PARAM)
+
+.ota_boot_hdr   0x30000000      0x27c
+ *(.ota_boot_hdr)
+ .ota_boot_hdr  0x30000000      0x100 components/bsp/soc/boot/bootloader//libbootloader.a(ota.o)
+                0x30000000                _bootloader_start
+                0x300000a0                OS_Trap_Syscall
+                0x300000ba                OTA_Trap_TLB_VLPT_Miss
+                0x300000ba                OS_Trap_TLB_Misc
+                0x300000ba                OS_Trap_Debug_Related
+                0x300000ba                OTA_Trap_Syscall
+                0x300000ba                OTA_Trap_Interrupt_SWI
+                0x300000ba                OS_Trap_General_Exception
+                0x300000ba                OTA_Trap_TLB_Misc
+                0x300000ba                OTA_Trap_PTE_Not_Present
+                0x300000ba                OTA_Trap_Debug_Related
+                0x300000ba                OS_Trap_Interrupt_SWI
+                0x300000ba                OS_Trap_PTE_Not_Present
+                0x300000ba                OTA_Trap_Machine_Error
+                0x300000ba                OTA_Trap_TLB_Fill
+                0x300000ba                OTA_Trap_NONE
+                0x300000ba                OS_Trap_TLB_VLPT_Miss
+                0x300000ba                OTA_Trap_General_Exception
+                0x300000ba                OS_Trap_Machine_Error
+                0x300000ba                OS_Trap_TLB_Fill
+ *(.ota_boot)
+ .ota_boot      0x30000100       0xdc components/bsp/soc/boot/bootloader//libbootloader.a(ota.o)
+                0x30000100                ota_boot
+ *fill*         0x300001dc        0x0 
+ .ota_boot      0x300001dc       0x78 components/bsp/soc/boot/bootloader//libbootloader.a(boot_rnd.o)
+                0x300001dc                _boot_init_rnd
+ .ota_boot      0x30000254       0x28 components/bsp/soc/boot/bootloader//libbootloader.a(ota_init_mem.o)
+                0x30000254                _ota_move_fast_boot_code
+                0x00000000                . = 0x0
+                0x00000000                ILM_BEGIN = .
+                0x3000027c                __ota_fast_boot_lmastart = LOADADDR (.ota_fast_boot_code)
+                0x00000000                __ota_fast_boot_start = ADDR (.ota_fast_boot_code)
+
+.ota_fast_boot_code
+                0x00000000       0xbc load address 0x3000027c
+ *(.ota_vector)
+ .ota_vector    0x00000000       0x90 components/bsp/soc/boot/bootloader//libbootloader.a(ota.o)
+ *(.ota_fast_boot_code)
+ .ota_fast_boot_code
+                0x00000090       0x2c components/bsp/soc/boot/bootloader//libbootloader.a(ota_init_mem.o)
+                0x00000090                _ota_move_fast_code
+                0x000000bc                __ota_fast_boot_end = .
+                0x30000338                __fast_lmastart = LOADADDR (.fast_code)
+                0x000000bc                __fast_start = ADDR (.fast_code)
+
+.fast_code      0x000000bc     0x1370 load address 0x30000338
+                0x000000bc                . = ALIGN (0x4)
+ *(.text .stub .text.* .gnu.linkonce.t.* .rodata .rodata.*)
+ .text          0x000000bc       0x28 /tmp/cccF8t5D.o
+                0x000000bc                _boot_init
+                0x000000e0                _ota_use_fs
+ .text          0x000000e4      0x1f4 /tmp/ccgqrz18.o
+                0x000000e4                flash_write_enable
+                0x000000f4                flash_wait_busy
+                0x00000118                flash_set_qe_type0
+                0x00000178                flash_set_qe_type1
+                0x000001f0                flash_set_qe_type2
+                0x00000254                custom_upgrade
+                0x000002d4                custom_boot_addr
+ .rodata.str1.4
+                0x000002d8       0xb8 components/bsp/soc/boot/bootloader//libbootloader.a(ota_c.o)
+ .text.chip_init
+                0x00000390       0xa8 components/bsp/soc/boot/bootloader//libbootloader.a(ota_c.o)
+                0x00000390                chip_init
+ .text.ota_c_code
+                0x00000438       0x30 components/bsp/soc/boot/bootloader//libbootloader.a(ota_c.o)
+                0x00000438                ota_c_code
+ .text.uart_fw_upgrade
+                0x00000468      0x16c components/bsp/soc/boot/bootloader//libbootloader.a(ota_c.o)
+                0x00000468                uart_fw_upgrade
+ .text.serial_init
+                0x000005d4       0x38 components/bsp/soc/boot/bootloader//libbootloader.a(serial.o)
+                0x000005d4                serial_init
+ .text.serial_tx
+                0x0000060c       0x14 components/bsp/soc/boot/bootloader//libbootloader.a(serial.o)
+                0x0000060c                serial_tx
+ .text.serial_rx_ready
+                0x00000620       0x10 components/bsp/soc/boot/bootloader//libbootloader.a(serial.o)
+                0x00000620                serial_rx_ready
+ .text.serial_rx
+                0x00000630        0xc components/bsp/soc/boot/bootloader//libbootloader.a(serial.o)
+                0x00000630                serial_rx
+ .text.mstick_set_period
+                0x0000063c       0x10 components/bsp/soc/boot/bootloader//libbootloader.a(mstick.o)
+                0x0000063c                mstick_set_period
+ .text.mstick_remain_count
+                0x0000064c        0xc components/bsp/soc/boot/bootloader//libbootloader.a(mstick.o)
+                0x0000064c                mstick_remain_count
+ .text.mstick_stop
+                0x00000658       0x10 components/bsp/soc/boot/bootloader//libbootloader.a(mstick.o)
+                0x00000658                mstick_stop
+ .text.flash_wait_spi_status_register
+                0x00000668       0x48 components/bsp/soc/boot/bootloader//libbootloader.a(ota_flash.o)
+ .text.flash_write_enable
+                0x000006b0       0x40 components/bsp/soc/boot/bootloader//libbootloader.a(ota_flash.o)
+ .text.ota_flashctl_bitmode
+                0x000006f0       0x3c components/bsp/soc/boot/bootloader//libbootloader.a(ota_flash.o)
+                0x000006f0                ota_flashctl_bitmode
+ .text.flash_cmd
+                0x0000072c       0x58 components/bsp/soc/boot/bootloader//libbootloader.a(ota_flash.o)
+                0x0000072c                flash_cmd
+ .text.ota_flash_64kblock_erase
+                0x00000784       0x6c components/bsp/soc/boot/bootloader//libbootloader.a(ota_flash.o)
+                0x00000784                ota_flash_64kblock_erase
+ .text.ota_flash_sector_erase
+                0x000007f0       0x6c components/bsp/soc/boot/bootloader//libbootloader.a(ota_flash.o)
+                0x000007f0                ota_flash_sector_erase
+ .text.ota_flash_page_program
+                0x0000085c       0x84 components/bsp/soc/boot/bootloader//libbootloader.a(ota_flash.o)
+                0x0000085c                ota_flash_page_program
+ .text.ota_flash_init
+                0x000008e0       0x38 components/bsp/soc/boot/bootloader//libbootloader.a(ota_flash.o)
+                0x000008e0                ota_flash_init
+ .text.hal_pinmux_set_raw
+                0x00000918       0xe0 components/bsp/soc/boot/bootloader//libbootloader.a(hal_pinmux.o)
+                0x00000918                hal_pinmux_set_raw
+ .text._inbyte  0x000009f8       0x38 components/bsp/soc/boot/bootloader//libbootloader.a(xmodem.o)
+ .text.xmodemReceive
+                0x00000a30      0x2b8 components/bsp/soc/boot/bootloader//libbootloader.a(xmodem.o)
+                0x00000a30                xmodemReceive
+ .text.crc16_ccitt
+                0x00000ce8       0x60 components/bsp/soc/boot/bootloader//libbootloader.a(crc16.o)
+                0x00000ce8                crc16_ccitt
+ .text.tiny_vprintf_help
+                0x00000d48       0x20 components/bsp/soc/boot/bootloader//libbootloader.a(tiny_printf.o)
+ .text.tiny_printf_display
+                0x00000d68        0x8 components/bsp/soc/boot/bootloader//libbootloader.a(tiny_printf.o)
+                0x00000d68                tiny_printf_display
+ .text.tiny_printf
+                0x00000d70       0x34 components/bsp/soc/boot/bootloader//libbootloader.a(tiny_printf.o)
+                0x00000d70                tiny_printf
+ .text.tiny_do_printf
+                0x00000da4      0x37c components/bsp/soc/boot/bootloader//libbootloader.a(tiny_do_printf.o)
+                0x00000da4                tiny_do_printf
+ .text.read_efuse_item.constprop.0
+                0x00001120       0x24 components/bsp/soc/boot/bootloader//libbootloader.a(efuse.o)
+ .text.ota_efuse_read_chip_id
+                0x00001144       0xc4 components/bsp/soc/boot/bootloader//libbootloader.a(efuse.o)
+                0x00001144                ota_efuse_read_chip_id
+ .rodata.ICOMM_EFUSE_ITEM_TABLE
+                0x00001208       0x30 components/bsp/soc/boot/bootloader//libbootloader.a(efuse.o)
+ .text          0x00001238       0x48 components/bsp/soc/boot/bootloader//libbootloader.a(ota.o)
+ .text._ota_nds32_init_mem
+                0x00001280       0x2c components/bsp/soc/boot/bootloader//libbootloader.a(ota_init_mem.o)
+                0x00001280                _ota_nds32_init_mem
+ .text._ota_soc_clk_init
+                0x000012ac      0x14c components/bsp/soc/boot/bootloader//libbootloader.a(ota_clock.o)
+                0x000012ac                _ota_soc_clk_init
+ .text.my_memcpy
+                0x000013f8       0x1c components/bsp/soc/boot/bootloader//libbootloader.a(my_lib.o)
+                0x000013f8                my_memcpy
+ .text.my_strlen
+                0x00001414       0x18 components/bsp/soc/boot/bootloader//libbootloader.a(my_lib.o)
+                0x00001414                my_strlen
+                0x0000142c                . = ALIGN (0x4)
+                0x0000142c                __fast_end = .
+                0x0000142c                ILM_SIZE = (. - ILM_BEGIN)
+
+.rela.dyn       0x0000142c        0x0 load address 0x300016a8
+ .rela.text     0x00000000        0x0 /tmp/cccF8t5D.o
+ .rela.text.chip_init
+                0x00000000        0x0 /tmp/cccF8t5D.o
+ .rela.text.ota_c_code
+                0x00000000        0x0 /tmp/cccF8t5D.o
+ .rela.text.fota_fs_upgrade
+                0x00000000        0x0 /tmp/cccF8t5D.o
+ .rela.text.uart_fw_upgrade
+                0x00000000        0x0 /tmp/cccF8t5D.o
+ .rela.text.serial_uart1_init
+                0x00000000        0x0 /tmp/cccF8t5D.o
+ .rela.text.xmodemReceive
+                0x00000000        0x0 /tmp/cccF8t5D.o
+ .rela.text.tiny_vprintf
+                0x00000000        0x0 /tmp/cccF8t5D.o
+ .rela.text.tiny_printf
+                0x00000000        0x0 /tmp/cccF8t5D.o
+ .rela.text.tiny_do_printf
+                0x00000000        0x0 /tmp/cccF8t5D.o
+ .rela.text._spiffs_read
+                0x00000000        0x0 /tmp/cccF8t5D.o
+ .rela.text.OTA_SPIFFS_init
+                0x00000000        0x0 /tmp/cccF8t5D.o
+ .rela.text.OTA_SPIFFS_find_and_check
+                0x00000000        0x0 /tmp/cccF8t5D.o
+ .rela.text.OTA_SPIFFS_find_and_update
+                0x00000000        0x0 /tmp/cccF8t5D.o
+ .rela.text.read_efuse_item.constprop.0
+                0x00000000        0x0 /tmp/cccF8t5D.o
+ .rela.text.ota_efuse_read_chip_id
+                0x00000000        0x0 /tmp/cccF8t5D.o
+ .rela.ota_boot_hdr
+                0x00000000        0x0 /tmp/cccF8t5D.o
+ .rela.ota_vector
+                0x00000000        0x0 /tmp/cccF8t5D.o
+ .rela.ota_boot
+                0x00000000        0x0 /tmp/cccF8t5D.o
+ .rela.text._ota_nds32_init_mem
+                0x00000000        0x0 /tmp/cccF8t5D.o
+ .rela.ota_fast_boot_code
+                0x00000000        0x0 /tmp/cccF8t5D.o
+ .rela.text._ota_soc_clk_init
+                0x00000000        0x0 /tmp/cccF8t5D.o
+ .rela.text.MD5_Update
+                0x00000000        0x0 /tmp/cccF8t5D.o
+ .rela.text.MD5_Final
+                0x00000000        0x0 /tmp/cccF8t5D.o
+ .rela.text.spiffs_read_dir_v
+                0x00000000        0x0 /tmp/cccF8t5D.o
+ .rela.text.spiffs_stat_pix.isra.0
+                0x00000000        0x0 /tmp/cccF8t5D.o
+ .rela.text.otaSPIFFS_probe_fs
+                0x00000000        0x0 /tmp/cccF8t5D.o
+ .rela.text.otaSPIFFS_mount
+                0x00000000        0x0 /tmp/cccF8t5D.o
+ .rela.text.otaSPIFFS_unmount
+                0x00000000        0x0 /tmp/cccF8t5D.o
+ .rela.text.otaSPIFFS_open
+                0x00000000        0x0 /tmp/cccF8t5D.o
+ .rela.text.otaSPIFFS_open_by_dirent
+                0x00000000        0x0 /tmp/cccF8t5D.o
+ .rela.text.otaSPIFFS_open_by_page
+                0x00000000        0x0 /tmp/cccF8t5D.o
+ .rela.text.otaSPIFFS_read
+                0x00000000        0x0 /tmp/cccF8t5D.o
+ .rela.text.otaSPIFFS_lseek
+                0x00000000        0x0 /tmp/cccF8t5D.o
+ .rela.text.otaSPIFFS_stat
+                0x00000000        0x0 /tmp/cccF8t5D.o
+ .rela.text.otaSPIFFS_fstat
+                0x00000000        0x0 /tmp/cccF8t5D.o
+ .rela.text.otaSPIFFS_close
+                0x00000000        0x0 /tmp/cccF8t5D.o
+ .rela.text.otaSPIFFS_readdir
+                0x00000000        0x0 /tmp/cccF8t5D.o
+ .rela.text.otaSPIFFS_eof
+                0x00000000        0x0 /tmp/cccF8t5D.o
+ .rela.text.otaSPIFFS_tell
+                0x00000000        0x0 /tmp/cccF8t5D.o
+                0x00100000                . = 0x100000
+                0x00100000                SDRAM_BEGIN = .
+                0x00100000                DLM_BEGIN = .
+
+.text           0x300016a8        0x0
+                0x300016a8                . = ALIGN (0x4)
+                0x300016a8                __XIP_TEXT_START = .
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+                0x300016a8                . = ALIGN (0x4)
+                0x300016a8                __XIP_TEXT_END = .
+                0x300016a8                . = ALIGN (0x4)
+
+.rodata
+
+.ex9.itable
+ *(.ex9.itable)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+                0x300016a8                __data_lmastart = LOADADDR (.eh_frame)
+                0x00100000                __data_start = ADDR (.eh_frame)
+
+.eh_frame       0x00100000        0x0 load address 0x300016a8
+ *(.eh_frame)
+
+.data           0x00100000        0x8 load address 0x300016a8
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data._g_tiny_printf_enable
+                0x00100000        0x1 components/bsp/soc/boot/bootloader//libbootloader.a(tiny_printf.o)
+ *(.gnu.linkonce.d.*personality*)
+                0x00100008                . = ALIGN (0x8)
+ *fill*         0x00100001        0x7 
+                0x00100008                . = ALIGN (0x4)
+
+.got
+ *(.got.plt)
+ *(.got)
+
+.sdata_d
+ *(.sdata_d .sdata_d.*)
+
+.sdata_w
+ *(.sdata_w .sdata_w.*)
+
+.sdata_h
+ *(.sdata_h .sdata_h.*)
+
+.sdata_b
+ *(.sdata_b .sdata_b.*)
+
+.sdata_f        0x00100008        0x0 load address 0x300016b0
+ *(.sdata_f .sdata_f.*)
+                0x00100008                . = ALIGN (0x4)
+                0x00100008                _edata = .
+                0x00100008                PROVIDE (edata, .)
+                0x000016b0                __check_main_size = ((LOADADDR (.sdata_f) + SIZEOF (.sdata_f)) - ORIGIN (REGION_BOOT))
+                0x00100008                __bss_start = .
+                0x00100008                PROVIDE (__sbss_start, .)
+                0x00100008                PROVIDE (___sbss_start, .)
+
+.bss            0x00100008      0x568 load address 0x300016b0
+                0x00100008                . = ALIGN (0x4)
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+ *(.sbss_f .sbss_f.*)
+ *(.scommon_f .scommon_f.*)
+ *(.sbss_b .sbss_b.*)
+ *(.scommon_b .scommon_b.*)
+                0x00100008                . = ALIGN (0x2)
+ *(.sbss_h .sbss_h.*)
+ *(.scommon_h .scommon_h.*)
+                0x00100008                . = ALIGN (0x4)
+ *(.sbss_w .sbss_w.*)
+ *(.scommon_w .scommon_w.*)
+ *(.dynsbss)
+ *(.scommon)
+                0x00100008                . = ALIGN (0x8)
+ *(.sbss_d .sbss_d.*)
+ *(.scommon_d .scommon_d.*)
+ *(.dynbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss.SRAM_ADDR_DATAIN
+                0x00100008        0x4 components/bsp/soc/boot/bootloader//libbootloader.a(ota_flash.o)
+ .bss.SRAM_ADDR_CMD_DATAOUT_ADD4
+                0x0010000c        0x4 components/bsp/soc/boot/bootloader//libbootloader.a(ota_flash.o)
+ .bss.SRAM_ADDR_CMD_DATAOUT
+                0x00100010        0x4 components/bsp/soc/boot/bootloader//libbootloader.a(ota_flash.o)
+ .bss.status_buf
+                0x00100014        0x8 components/bsp/soc/boot/bootloader//libbootloader.a(ota_flash.o)
+ .bss.tx_buf    0x0010001c      0x104 components/bsp/soc/boot/bootloader//libbootloader.a(ota_flash.o)
+ .bss.efuse_real_content_len
+                0x00100120        0x2 components/bsp/soc/boot/bootloader//libbootloader.a(efuse.o)
+ *fill*         0x00100122        0x2 
+ .bss.efuse_buf
+                0x00100124       0x20 components/bsp/soc/boot/bootloader//libbootloader.a(efuse.o)
+ *fill*         0x00100144        0x4 
+ .bss           0x00100148       0x20 components/bsp/soc/boot/bootloader//libbootloader.a(ota.o)
+                0x0010014c                SAVED_PC
+                0x00100154                SAVED_ETYPE
+                0x0010015c                SAVED_SWID
+                0x00100164                SAVED_VECTOR
+ *(COMMON)
+ COMMON         0x00100168      0x406 /tmp/cciFj6os.o
+                0x00100168                xbuff
+                0x00100570                . = ALIGN (0x4)
+ *fill*         0x0010056e        0x2 
+                0x00100570                PROVIDE (__sbss_end, .)
+                0x00100570                PROVIDE (___sbss_end, .)
+                0x00100580                . = ALIGN (0x20)
+                0x00100580                _end = .
+                0x00100580                PROVIDE (end, .)
+                0x00100580                _show_dlm_end = .
+                0x00100580                PROVIDE (_show_dlm_end, .)
+
+.fill           0x300016b0     0x2950
+                0x30003ffe                . = ((ORIGIN (REGION_BOOT) + 0x4000) - 0x2)
+ *fill*         0x300016b0     0x294e d500
+                0x30003ffe        0x2 SHORT 0xd5
+                0x00120000                PROVIDE (_stack, (ORIGIN (REGION_DATA_FAST) + 0x20000))
+                0x00120000                __OS_Exception_Stack = _stack
+                0x0011ff00                __OS_Int_Stack = (__OS_Exception_Stack - 0x100)
+                0x0011fc00                __fence__ = (__OS_Int_Stack - 0x300)
+                0x0001f680                dlm_remain = (__fence__ - _end)
+                0x2ff04000                SDRAM_SIZE = (. - SDRAM_BEGIN)
+                0x000016b0                FLASH_SIZE = (LOADADDR (.bss) - FLASH_BEGIN)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.note.nds32
+ *(.note.nds32)
+ *(.note.nds32.*)
+
+.comment        0x00000000       0x2e
+ *(.comment)
+ .comment       0x00000000       0x2e /tmp/cccF8t5D.o
+                                 0x2f (size before relaxing)
+ .comment       0x00000000       0x2f /tmp/ccgqrz18.o
+ .comment       0x00000000       0x2f /tmp/cciFj6os.o
+ .comment       0x00000000       0x2f components/bsp/soc/boot/bootloader//libbootloader.a(ota_c.o)
+ .comment       0x00000000       0x2f components/bsp/soc/boot/bootloader//libbootloader.a(serial.o)
+ .comment       0x00000000       0x2f components/bsp/soc/boot/bootloader//libbootloader.a(mstick.o)
+ .comment       0x00000000       0x2f components/bsp/soc/boot/bootloader//libbootloader.a(ota_flash.o)
+ .comment       0x00000000       0x2f components/bsp/soc/boot/bootloader//libbootloader.a(hal_gpio.o)
+ .comment       0x00000000       0x2f components/bsp/soc/boot/bootloader//libbootloader.a(hal_pinmux.o)
+ .comment       0x00000000       0x2f components/bsp/soc/boot/bootloader//libbootloader.a(xmodem.o)
+ .comment       0x00000000       0x2f components/bsp/soc/boot/bootloader//libbootloader.a(crc16.o)
+ .comment       0x00000000       0x2f components/bsp/soc/boot/bootloader//libbootloader.a(tiny_printf.o)
+ .comment       0x00000000       0x2f components/bsp/soc/boot/bootloader//libbootloader.a(tiny_do_printf.o)
+ .comment       0x00000000       0x2f components/bsp/soc/boot/bootloader//libbootloader.a(efuse.o)
+ .comment       0x00000000       0x2f components/bsp/soc/boot/bootloader//libbootloader.a(boot_rnd.o)
+ .comment       0x00000000       0x2f components/bsp/soc/boot/bootloader//libbootloader.a(ota_init_mem.o)
+ .comment       0x00000000       0x2f components/bsp/soc/boot/bootloader//libbootloader.a(ota_clock.o)
+ .comment       0x00000000       0x2f components/bsp/soc/boot/bootloader//libbootloader.a(my_lib.o)
+ .comment       0x00000000       0x2f components/bsp/soc/boot/bootloader//libbootloader.a(fota_md5.o)
+ .comment       0x00000000       0x2f components/bsp/soc/boot/bootloader//libbootloader.a(ota_spiffs_hydrogen.o)
+ .comment       0x00000000       0x2f components/bsp/soc/boot/bootloader//libbootloader.a(ota_spiffs_nucleus.o)
+
+.note.v2abi_compatible
+                0x00000000       0x44
+ .note.v2abi_compatible
+                0x00000000        0x4 /tmp/cccF8t5D.o
+ .note.v2abi_compatible
+                0x00000004        0x4 /tmp/ccgqrz18.o
+ .note.v2abi_compatible
+                0x00000008        0x4 /tmp/cciFj6os.o
+ .note.v2abi_compatible
+                0x0000000c        0x4 components/bsp/soc/boot/bootloader//libbootloader.a(mstick.o)
+ .note.v2abi_compatible
+                0x00000010        0x4 components/bsp/soc/boot/bootloader//libbootloader.a(ota_flash.o)
+ .note.v2abi_compatible
+                0x00000014        0x4 components/bsp/soc/boot/bootloader//libbootloader.a(hal_gpio.o)
+ .note.v2abi_compatible
+                0x00000018        0x4 components/bsp/soc/boot/bootloader//libbootloader.a(hal_pinmux.o)
+ .note.v2abi_compatible
+                0x0000001c        0x4 components/bsp/soc/boot/bootloader//libbootloader.a(xmodem.o)
+ .note.v2abi_compatible
+                0x00000020        0x4 components/bsp/soc/boot/bootloader//libbootloader.a(crc16.o)
+ .note.v2abi_compatible
+                0x00000024        0x4 components/bsp/soc/boot/bootloader//libbootloader.a(tiny_do_printf.o)
+ .note.v2abi_compatible
+                0x00000028        0x4 components/bsp/soc/boot/bootloader//libbootloader.a(efuse.o)
+ .note.v2abi_compatible
+                0x0000002c        0x4 components/bsp/soc/boot/bootloader//libbootloader.a(boot_rnd.o)
+ .note.v2abi_compatible
+                0x00000030        0x4 components/bsp/soc/boot/bootloader//libbootloader.a(ota_clock.o)
+ .note.v2abi_compatible
+                0x00000034        0x4 components/bsp/soc/boot/bootloader//libbootloader.a(my_lib.o)
+ .note.v2abi_compatible
+                0x00000038        0x4 components/bsp/soc/boot/bootloader//libbootloader.a(fota_md5.o)
+ .note.v2abi_compatible
+                0x0000003c        0x4 components/bsp/soc/boot/bootloader//libbootloader.a(ota_spiffs_hydrogen.o)
+ .note.v2abi_compatible
+                0x00000040        0x4 components/bsp/soc/boot/bootloader//libbootloader.a(ota_spiffs_nucleus.o)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x60
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 /tmp/cccF8t5D.o
+ .debug_aranges
+                0x00000020       0x20 /tmp/ccgqrz18.o
+ .debug_aranges
+                0x00000040       0x20 /tmp/cciFj6os.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x10ef
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x43c /tmp/cccF8t5D.o
+ .debug_info    0x0000043c      0x5b1 /tmp/ccgqrz18.o
+ .debug_info    0x000009ed      0x702 /tmp/cciFj6os.o
+
+.debug_abbrev   0x00000000      0x4ec
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000       0xf6 /tmp/cccF8t5D.o
+ .debug_abbrev  0x000000f6      0x195 /tmp/ccgqrz18.o
+ .debug_abbrev  0x0000028b      0x261 /tmp/cciFj6os.o
+
+.debug_line     0x00000000      0x8db
+ *(.debug_line)
+ .debug_line    0x00000000      0x1fa /tmp/cccF8t5D.o
+ .debug_line    0x000001fa      0x2fc /tmp/ccgqrz18.o
+ .debug_line    0x000004f6      0x3e5 /tmp/cciFj6os.o
+
+.debug_frame    0x00000000      0x1d8
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x40 /tmp/cccF8t5D.o
+ .debug_frame   0x00000040      0x118 /tmp/ccgqrz18.o
+ .debug_frame   0x00000158       0x80 /tmp/cciFj6os.o
+
+.debug_str      0x00000000      0x8e1
+ *(.debug_str)
+ .debug_str     0x00000000      0x63f /tmp/cccF8t5D.o
+                                0x6b2 (size before relaxing)
+ .debug_str     0x0000063f      0x129 /tmp/ccgqrz18.o
+                                0x22f (size before relaxing)
+ .debug_str     0x00000768      0x179 /tmp/cciFj6os.o
+                                0x2a2 (size before relaxing)
+
+.debug_loc      0x00000000      0xbb4
+ *(.debug_loc)
+ .debug_loc     0x00000000      0x566 /tmp/ccgqrz18.o
+ .debug_loc     0x00000566      0x64e /tmp/cciFj6os.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+OUTPUT(/home/icomm-iot/IOT/dev/atcmd/SSV.tiramisu.6x66.18Q4_togit/image/lite_mac_bl.elf elf32-nds32le)
+
+.debug_ranges   0x00000000       0x70
+ .debug_ranges  0x00000000       0x40 /tmp/ccgqrz18.o
+ .debug_ranges  0x00000040       0x30 /tmp/cciFj6os.o
